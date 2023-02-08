@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.shop-list {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.shop-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #00000023;
+    transition: all 0.3s;
+}
+
+.shop-item:hover {
+    box-shadow: 1px 1px 6px 1px #888888;
+}
+
+.card-img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.title-text {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #111;
+}
+
+.price-text {
+    padding: 5px;
+    background: #ffd740;
+    border-radius: 6px;
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Card-text {
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.button-card {
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: block;
+    color: #0ff50fae;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #0ff50fae;
+    border-radius: 8px;
+}
+
+.rate-svg {
+    width: 20px;
+    height: 20px;
+}
